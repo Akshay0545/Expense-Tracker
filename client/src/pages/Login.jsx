@@ -46,11 +46,7 @@ export default function Login() {
         <h1 className="text-2xl font-semibold mb-2">Login</h1>
 
         {/* tiny debug banner (only in dev) */}
-        {import.meta.env.DEV && (
-          <div className="mb-3 text-xs text-gray-600">
-            API: <code>{import.meta.env.VITE_API_BASE || "(missing VITE_API_BASE)"}</code>
-          </div>
-        )}
+        
 
         <form onSubmit={onSubmit} className="space-y-3">
           <label className="block">
