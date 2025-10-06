@@ -3,9 +3,9 @@
 
 <!-- Live links row -->
 <p align="center">
-  <a href="https://ledgerlite-zc0w.onrender.com" target="_blank"><b>🔥 Live Demo</b></a>
+  <a href="https://expense-tracker-one-ruddy-54.vercel.app/" target="_blank"><b>🔥 Live Demo</b></a>
   &nbsp;•&nbsp;
-  <a href="https://ledgerlite-mern.onrender.com/api/health" target="_blank">API Health</a>
+  <a href="https://expense-tracker-gsam.onrender.com/api/health" target="_blank">API Health</a>
 </p>
 
 <p align="center">
@@ -194,50 +194,6 @@ $token = $login.token
 irm "$BASE/expenses" -Headers @{ Authorization = "Bearer $token" }
 ```
 
-## 📁 Folder Structure
-
-```txt
-ledgerlite-mern/
-├── server/
-│   ├── src/
-│   │   ├── config/
-│   │   │   └── db.js
-│   │   ├── middleware/
-│   │   │   └── auth.js
-│   │   ├── models/
-│   │   │   ├── User.js
-│   │   │   └── Expense.js
-│   │   ├── routes/
-│   │   │   ├── auth.js
-│   │   │   └── expenses.js
-│   │   └── index.js
-│   └── .env           # MONGO_URI, JWT_SECRET, PORT, CORS_ORIGIN
-├── client/
-│   ├── src/
-│   │   ├── api/
-│   │   │   ├── client.js
-│   │   │   └── expenses.js
-│   │   ├── pages/
-│   │   │   ├── Landing.jsx
-│   │   │   ├── Login.jsx
-│   │   │   ├── Register.jsx
-│   │   │   ├── Dashboard.jsx
-│   │   │   └── Analytics.jsx
-│   │   └── components/
-│   │       ├── StatCard.jsx
-│   │       ├── Badge.jsx
-│   │       ├── Spinner.jsx
-│   │       └── EmptyState.jsx
-│   └── .env.local     # VITE_API_BASE
-└── docs/
-    ├── API-REFERENCE.md
-    ├── postman_collection.json
-    ├── commits.md         # with screenshots
-    ├── FEATURE_LOG.md
-    ├── prompts.md         # AI prompts with reasoning
-    └── video.md
-
-```
 ## 🔄 Development Tracking
 
 - **Commit Frequency:** push at least hourly
